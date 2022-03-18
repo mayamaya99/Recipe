@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  width: 80%;
+  min-height: 90vh;
+  box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
+
+  /* 
+    background-image: linear-gradient(to right, #a8ff78, #78ffd6);   */
+  background-image: linear-gradient(to right, #151615, #121312);
+  color: #d9d9d9;
+
+  margin: 5px auto;
+}
+h2 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 3em;
+  font-weight: 400;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+  color: #d9d9d9;
+  /* background: #e8e8e8; */
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
+    1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.recipe p {
+  font-family: italic;
+}
+
+@media (max-width: 875px) {
+  .App {
+    flex-direction: column;
+    width: 100%;
+  }
+  h1 {
+    padding: 10px;
+    font-size: 1em;
+  }
+  img {
+    padding: 5px;
+  }
+}
+
+.search-form {
+  margin: auto;
+  max-width: 900px;
+  padding: 10px;
+}
+.search-bar {
+  width: 580px;
+  /* border: none; */
+  padding: 10px;
+  /* border: 3px solid #00B4CC; */
+  height: 70px;
+  background-color: smokewhite;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #00b4cc;
+  font-size: 20px;
+  box-shadow: 2px 6px rgb(112, 45, 45);
+  background: #f3fdf3;
+}
+
+@media (max-width: 775px) {
+  .img {
+    flex-direction: row;
+    width: 80%;
+    padding:20px !important;
+    width: 150px;
+    height: 150px;
+  }
+  .search-form {
+    width: 60%;
+    flex-direction: row;
+  }
+  .search-bar {
+    width: 10%;
+    flex-direction: row;
+    padding: 2px;
+  }
+  .search-button {
+    width: 50%;
+    flex-direction:row;
+  }
+}
+
+.search-button {
+  width: 90px;
+  height: 70px;
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: rgb(24, 22, 22);
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+
+  box-shadow: 2px 6px rgb(112, 45, 45);
+}
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 2px solid rgb(202, 240, 202);
+}
+.footer {
+  /* position: fixed; */
+  margin-top: 10px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* background-color: red; */
+  background: linear-gradient(
+    100.37deg,
+    rgb(236, 0, 139) 0%,
+    rgb(241, 90, 34) 100%
+  );
+  box-shadow: 0 2px 1px rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  padding: 0 10px 10px;
+  height: 120px;
+  margin-bottom: 40px;
+  box-shadow: 0 -5px 5px -5px rgb(236, 230, 230);
+}
+.footer p {
+  align-items: center;
+  padding: 20px;
+}

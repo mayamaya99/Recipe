@@ -1,0 +1,72 @@
+ .recipe{
+  border-radius:px;
+  box-shadow: 0px 5px 20px (60,60,60);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  border: 1px solid grey;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+  font-family:Courier New;
+/* background-color: #f9f7f1; */
+/* background-color: #161615; */
+/* background-color: #474746; */
+} 
+/* .recipe{
+  background-color: #f9f7f1;     
+display: flex;
+width: 100%;
+padding: 10px;
+margin-bottom: 25px;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15), 0 2px 5px 0 rgba(0,0,0,0.15);
+} 
+ .recipe img{
+margin: 15px auto;
+ 
+}
+
+.recipe img{
+  object-fit:cover;
+    width: 420px;
+    height: 270px;
+    margin: 15px auto;
+} */
+h1{
+  font-size:1em;
+}
+.img{
+  display: flex;
+  align-items: center;
+   
+    width: 300px;
+    height: 300px;
+    
+}
+@media(max-width:875px){
+  .img{
+    flex-direction: column;
+    width:80%;
+    padding: 20px !important;
+    width: 150px;
+    height: 150px;
+  }
+}
+h1{
+  /* color: rgb(16, 16, 142); */
+   color: rgb(226, 226, 235);
+  font-size:3px important;
+  font-family:NSimSun ;
+} 
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
