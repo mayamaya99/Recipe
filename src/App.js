@@ -4,13 +4,7 @@ import Recipe from "./Recipe";
 //import NavBar from './NavBar';
 import Footer from "./Footer";
 
-//app_id = 159fc47c
-//app-key = 4e272c328a090a45e4945962452db7b0
 
-// const id = process.env.REACT_APP_ID;
-// const key = process.env.REACT_APP_KEY;
-
-//api : https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}
 const App = () => {
   const [recipes, setRecipes] = useState([]);
 
